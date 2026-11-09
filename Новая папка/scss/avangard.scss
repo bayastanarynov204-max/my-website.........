@@ -1,0 +1,10 @@
+// Avion brand tokens and shared visual language
+:root {
+  --ink: #2a4050; --blue: #164f72; --blue-dark: #123e5d;
+  --pale: #f7f7f5; --muted: #6d7b83; --white: #fff;
+  --max: 1240px;
+}
+body { font-family: 'Jost', Arial, sans-serif; color: var(--ink); }
+a { color: inherit; text-decoration: none; }
+.button { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 25px; transition: .2s; }
+.button:hover { transform: translateY(-2px); }

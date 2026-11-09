@@ -1,0 +1,6 @@
+.hero { display:grid; grid-template-columns:1.08fr .92fr; min-height:520px; background:var(--blue-dark); color:#fff; }
+.hero__copy { padding:58px 7% 42px; display:flex; flex-direction:column; align-items:flex-start; }
+.hero h1 { font-size:clamp(34px,4vw,52px); line-height:1.17; font-weight:400; }
+.hero__image { min-height:520px; }
+.benefits { padding:86px 0 88px; }
+.benefits__grid { display:grid; grid-template-columns:repeat(4,1fr); gap:35px; }

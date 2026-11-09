@@ -1,0 +1,5 @@
+.footer { background:#174f72; color:#fff; }
+.footer__main { display:grid; grid-template-columns:.8fr .8fr .8fr 2.2fr; gap:42px; padding-top:56px; padding-bottom:48px; }
+.footer__column a { display:block; font-size:13px; margin-bottom:9px; color:#e1e9ed; }
+.footer__form { display:flex; height:52px; }
+.footer__bottom { border-top:1px solid rgba(255,255,255,.3); display:flex; justify-content:space-between; padding:20px 0; }

@@ -1,0 +1,18 @@
+@media (max-width:900px) {
+  .benefits__grid { grid-template-columns:repeat(2,1fr); }
+  .footer__main { grid-template-columns:repeat(3,1fr); }
+  .footer__signup { grid-column:1/-1; }
+}
+@media (max-width:640px) {
+  .hero { width:100%; grid-template-columns:1fr; }
+  .hero__image { min-height:300px; height:300px; }
+  .nav { display:none; position:absolute; top:68px; left:0; right:0; flex-direction:column; background:#fff; }
+  .nav--open { display:flex; }
+  .menu-toggle { display:flex; flex-direction:column; gap:5px; }
+  .products--popular { grid-template-columns:1fr 1fr; }
+  .product-card--wide { grid-column:1/-1; }
+  .products--four { grid-template-columns:1fr 1fr; }
+  .about { grid-template-columns:1fr; }
+  .footer__main { grid-template-columns:1fr 1fr; }
+  .footer__signup { grid-column:1/-1; }
+}
